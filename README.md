@@ -40,7 +40,7 @@ Pour comprendre l'espace latent du modèle en 4 dimensions, une réduction de di
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 * **Langage :** Python 3
 * **Deep Learning :** PyTorch (Entraînement accéléré via CUDA/GPU)
 * **Data manipulation :** Pandas, Scikit-Learn (StandardScaler)
