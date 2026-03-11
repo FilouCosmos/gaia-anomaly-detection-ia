@@ -59,14 +59,15 @@ Pour exécuter ce projet sur votre machine avec prise en charge du GPU :
    cd gaia-anomaly-detection-ia
 
 2. Créez un environnement virtuel et installez les dépendances :
+   ```bash
+   conda create -n gaia_ai python=3.10
+   conda activate gaia_ai
+   pip install torch pandas matplotlib seaborn astroquery umap-learn pyarrow fastparquet
 
-conda create -n gaia_ai python=3.10
-conda activate gaia_ai
-pip install torch pandas matplotlib seaborn astroquery umap-learn pyarrow fastparquet
 
 3. Lancez le notebook :
-
-jupyter lab
+   ```bash
+   jupyter lab
 
 _______________________________________________________________________________________________________________________________
 
