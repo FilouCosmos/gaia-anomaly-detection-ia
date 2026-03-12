@@ -1,3 +1,5 @@
+<img width="826" height="734" alt="image" src="https://github.com/user-attachments/assets/c738adab-b6ea-4995-bc71-6ef767685270" />
+
 # Détection d'Anomalies Astrophysiques par Deep Learning (VAE)
 
 Ce projet de Data Science / IA vise à identifier des étoiles aux comportements atypiques (anomalies cinématiques ou photométriques) au sein de la Voie Lactée, en utilisant les données massives du catalogue **Gaia DR3** de l'Agence Spatiale Européenne (ESA). 
