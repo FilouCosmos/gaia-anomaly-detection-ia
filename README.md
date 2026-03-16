@@ -24,9 +24,7 @@ Le modèle repose sur un réseau de neurones génératif (VAE) conçu pour appre
 3. **Décodeur :** Tente de reconstruire les caractéristiques originales de l'étoile.
 
 ### Fonction de Perte (Loss Function)
-L'entraînement du modèle minimise l'Evidence Lower Bound (ELBO), composée de l'erreur de reconstruction (MSE) et de la divergence de Kullback-Leibler :
-
-$$\mathcal{L} = \text{MSE}(x, \hat{x}) + D_{KL}(\mathcal{N}(\mu, \sigma^2) \parallel \mathcal{N}(0, 1))$$
+L'entraînement du modèle minimise l'Evidence Lower Bound (ELBO), composée de l'erreur de reconstruction (MSE) et de la divergence de Kullback-Leibler.
 
 * **Le Scoring :** Une fois le modèle entraîné sur la norme, toute étoile présentant une erreur de reconstruction (MSE) anormalement élevée est classifiée comme anomalie.
 
