@@ -57,7 +57,7 @@ Pour exécuter ce projet sur votre machine avec prise en charge du GPU :
 
 1. Clonez ce dépôt :
    ```bash
-   git clone [https://github.com/FilouCosmos/gaia-anomaly-detection-ia.git]
+   git clone https://github.com/FilouCosmos/gaia-anomaly-detection-ia.git
    cd gaia-anomaly-detection-ia
 
 2. Créez un environnement virtuel et installez les dépendances :
