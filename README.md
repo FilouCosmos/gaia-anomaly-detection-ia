@@ -1,4 +1,4 @@
-#  Gaia Anomaly Detection (VAE)
+# Gaia Anomaly Detection (VAE)
 
 Ce module implémente un **Autoencodeur Variationnel (VAE)** pour identifier des objets célestes atypiques ou rares dans le catalogue Gaia DR3 en apprenant la "normalité" statistique des populations stellaires.
 
