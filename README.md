@@ -2,7 +2,7 @@
 
 Ce module implémente un **Autoencodeur Variationnel (VAE)** pour identifier des objets célestes atypiques ou rares dans le catalogue Gaia DR3 en apprenant la "normalité" statistique des populations stellaires.
 
-## 🔬 Architecture VAE
+##  Architecture VAE
 
 Le flux de données compresse les caractéristiques stellaires dans un espace latent avant de tenter une reconstruction parfaite.
 
